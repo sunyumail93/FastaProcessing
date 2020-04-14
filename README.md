@@ -10,3 +10,5 @@ Fasta2ProteinTranslator.py data/Human.cds.ATG.fa
 FastaContinuousHeaderGenerator.py data/Human.cds.ATG.fa
 
 FastaExtractorByPatternAtPos.py data/Human.cds.ATG.fa ATG 1
+
+FastaExtractorFromList.py data/Human.cds.ATG.fa data/Human.cds.ATG.list.txt
