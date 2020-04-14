@@ -22,11 +22,11 @@ def FastaExtractorByPatternAtPos():
             fo.writelines(lines[i+1].strip()+'\n')
 
 if len(sys.argv) != 4:
-    print "This is a script to extract FASTA by the pattern found from the given position"
-    print "This script is probably mainly used for Seqlogo analysis"
-    print "Input: A FASTA file"
-    print "Output: A new FASTA file containing reads when the pattern can be found at the specific position."
-    print "The output file name will be File.Pos.Pattern.fa, automatically"
-    print "Usage: [FastaExtractorByPatternAtPos.py] [Fasta] [Pattern] [Pos|1-based]"
+    print ("This is a script to extract FASTA by the pattern found from the given position")
+    print ("This script is probably mainly used for Seqlogo analysis")
+    print ("Input: A FASTA file")
+    print ("Output: A new FASTA file containing reads when the pattern can be found at the specific position.")
+    print ("The output file name will be File.Pos.Pattern.fa, automatically")
+    print ("Usage: [FastaExtractorByPatternAtPos.py] [Fasta] [Pattern] [Pos|1-based]")
 else:
     FastaExtractorByPatternAtPos()
