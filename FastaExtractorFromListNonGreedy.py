@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 #FastaExtractorFromListNonGreedy.py
 #This is a short script to extract the Fasta sequence using a given list, the list should be same as the header full name (without >)
 #This script can deal with the FASTA lines that contain \n at the ends (multi-line FASTA)
