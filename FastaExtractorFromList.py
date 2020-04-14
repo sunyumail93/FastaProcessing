@@ -22,15 +22,15 @@ def FastaExtractorFromList():
             if line.startswith(">"):
                 PRINT=False
             if line.strip() == fulllist:
-                print line.strip()
+                print (line.strip())
                 PRINT=True
             elif PRINT:
-                print line.strip()
+                print (line.strip())
 
 if len(sys.argv) != 3:
-    print "This is a short script to extract the Fasta sequence by a given list, the list should be same as the header full name (without >)"
-    print "This script can deal with the FASTA Sequence lines that contain \\n at the ends (multi-line seq FASTA)"
-    print "The results will be printed through stdout"
-    print "usage: FastaExtractorFromList.py [Fasta] [List]"
+    print ("This is a short script to extract the Fasta sequence by a given list, the list should be same as the header full name (without >)")
+    print ("This script can deal with the FASTA Sequence lines that contain \\n at the ends (multi-line seq FASTA)")
+    print ("The results will be printed through stdout")
+    print ("usage: FastaExtractorFromList.py [Fasta] [List]")
 else:
     FastaExtractorFromList()
