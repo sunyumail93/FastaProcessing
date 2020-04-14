@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #FastaExtractorByPatternAtPos.py
 #This is a script to extract FASTA by the pattern found from the given position
 #This script is probably mainly used for Seqlogo analysis
