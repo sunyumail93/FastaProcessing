@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #FastaContinuousHeaderGenerator.py
 #This script creates fake fasta header using 1,2,3,..., just to make each header unique
 #Y.H.S, 2020-04-09
