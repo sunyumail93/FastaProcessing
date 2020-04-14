@@ -20,7 +20,7 @@ def FastaContinuousHeaderGenerator():
     fo.close()
 
 if len(sys.argv) != 3:
-    print "This script creates fake fasta header using 1,2,3,..., just to make each header unique"
-    print "Usage: [FastaContinuousHeaderGenerator.py] [Fasta] [FastaOut]"
+    print ("This script creates fake fasta header using 1,2,3,..., just to make each header unique")
+    print ("Usage: [FastaContinuousHeaderGenerator.py] [Fasta] [FastaOut]")
 else:
     FastaContinuousHeaderGenerator()
