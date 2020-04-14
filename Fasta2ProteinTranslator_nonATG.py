@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #Fasta2ProteinTranslator_nonATG.py
 #This script takes DNA fasta seq (CDS) as input, directly translate the sequence from the 1st nt to the end, no matter whether the start codon is AUG or not
 #Version: Y.H.S, 2020-04-07
