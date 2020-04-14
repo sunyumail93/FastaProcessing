@@ -58,9 +58,9 @@ def Fasta2ProteinTranslator():
             print(seq.strip())
 
 if len(sys.argv) != 2: #if the length of argv is not equal to 2, then print warning message
-    print "This script takes DNA fasta seq (CDS) as input, directly translate the sequence from the 1st nt to the end, no matter whether the start codon is AUG or not"
-    print "Please make sure the input must be CDS, or it won't make sense"
-    print "The sequences have correct stop codons have * at the end"
-    print "Usage: [Fasta2ProteinTranslator_nonATG.py] [Fasta]"
+    print ("This script takes DNA fasta seq (CDS) as input, directly translate the sequence from the 1st nt to the end, no matter whether the start codon is AUG or not")
+    print ("Please make sure the input must be CDS, or it won't make sense")
+    print ("The sequences have correct stop codons have * at the end")
+    print ("Usage: [Fasta2ProteinTranslator_nonATG.py] [Fasta]")
 else:
     Fasta2ProteinTranslator()
