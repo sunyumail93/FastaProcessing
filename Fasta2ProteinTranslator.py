@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #Fasta2ProteinTranslator.py
 #This script takes DNA fasta seq as input, finds the first ATG and translates it until the stop codon
 #Version: Y.H.S, 2020-04-08
@@ -53,10 +53,10 @@ def Fasta2ProteinTranslator():
             seq=translate(line.strip())
             print(seq.strip())
 
-if len(sys.argv) != 2: #if the length of argv is not equal to 2, then print warning message
-    print "This script takes DNA fasta seq as input, finds the first ATG and translates it until the stop codon"
-    print "This script can only output the first found open reading frame (start from the first ATG)"
-    print "If no open reading frame found, it will return -; If no stop codon found, it will translate to the last possible codon"
-    print "Usage: [TranslateFASTA2Protein.py] [Fasta]"
+if len(sys.argv) != 2:
+    print ("This script takes DNA fasta seq as input, finds the first ATG and translates it until the stop codon")
+    print ("This script can only output the first found open reading frame (start from the first ATG)")
+    print ("If no open reading frame found, it will return -; If no stop codon found, it will translate to the last possible codon")
+    print ("Usage: [TranslateFASTA2Protein.py] [Fasta]")
 else:
     Fasta2ProteinTranslator()
