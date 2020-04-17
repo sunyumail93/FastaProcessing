@@ -16,3 +16,5 @@ FastaExtractorFromList.py data/Human.cds.ATG.fa data/Human.cds.ATG.list.txt
 FastaExtractorFromListNonGreedy.py data/Human.cds.ATG.fa data/Human.cds.ATG.list.txt
 
 FastaGCPercentage.py data/Human.cds.ATG.fa
+
+FastaHeaderConcatenator.py data/Human.miRNA.fa data/Human.miRNA.conc.fa
