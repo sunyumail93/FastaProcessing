@@ -22,3 +22,5 @@ FastaHeaderConcatenator.py data/Human.miRNA.fa data/Human.miRNA.conc.fa
 FastaHeaderCreater.py data/Human.cds.ATG.fa Human data/Human.cds.ATG.order.fa
 
 FastaHeaderSequenceAdder.py data/Human.miRNA.conc.fa  _ data/Human.miRNA.concseq.fa
+
+FastaHeaderSimplifier.py data/Human.miRNA.conc.fa data/Human.miRNA.simplified.fa
