@@ -26,3 +26,5 @@ FastaHeaderSequenceAdder.py data/Human.miRNA.conc.fa  _ data/Human.miRNA.concseq
 FastaHeaderSimplifier.py data/Human.miRNA.conc.fa data/Human.miRNA.simplified.fa
 
 FastaHeaderSuffixer.py data/Human.miRNA.conc.fa Suffix data/Human.miRNA.suffix.fa
+
+FastaMake2Columns.py data/Human.miRNA.fa data/Human.miRNA.2column.txt
