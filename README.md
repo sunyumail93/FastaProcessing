@@ -32,3 +32,5 @@ FastaMake2Columns.py data/Human.miRNA.fa data/Human.miRNA.2column.txt
 FastaMultiExonsCombiner.py data/Human.miRNA.fa
 
 FastaNonATGCremover.py data/Human.miRNA.fa data/Human.miRNA.nonATCG.fa
+
+FastaSeqClip.py data/Human.miRNA.fa 3
