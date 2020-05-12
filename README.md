@@ -36,3 +36,5 @@ FastaNonATGCremover.py data/Human.miRNA.fa data/Human.miRNA.nonATCG.fa
 FastaSeqClip.py data/Human.miRNA.fa 3
 
 FastaSeqLengthCutter_3end.py data/Human.miRNA.fa 3
+
+FastaSeqLengthCutter_5end.py data/Human.miRNA.fa 3
