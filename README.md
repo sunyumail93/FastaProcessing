@@ -38,3 +38,5 @@ FastaSeqClip.py data/Human.miRNA.fa 3
 FastaSeqLengthCutter_3end.py data/Human.miRNA.fa 3
 
 FastaSeqLengthCutter_5end.py data/Human.miRNA.fa 3
+
+FastaSeqLengthFilterGreater.py data/Human.miRNA.fa 20
