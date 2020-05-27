@@ -19,9 +19,9 @@ def FastaSeqORFShifter():
         print(lines[i+1].strip()[2:])
 
 if len(sys.argv) != 2:
-    print "This script takes multi-FASTA as input, and cut 0, 1, 2 from 5'-end to create three sequences consequtively"
-    print "Outputs will be directly printed, and three sequences maintain same name"
-    print "The result can be used to run dna_to_protein.fasta.pl"
-    print "Usage: [FastaSeqORFShifter.py] [Fasta]"
+    print("This script takes multi-FASTA as input, and cut 0, 1, 2 from 5'-end to create three sequences consequtively")
+    print("Outputs will be directly printed, and three sequences maintain same name")
+    print("The result can be used to run dna_to_protein.fasta.pl")
+    print("Usage: [FastaSeqORFShifter.py] [Fasta]")
 else:
     FastaSeqORFShifter()
