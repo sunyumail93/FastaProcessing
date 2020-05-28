@@ -48,3 +48,5 @@ FastaSeqLinearizer.py data/Human.miRNA.fa
 FastaSeqNucleotideCounter_ATCG.py data/Human.miRNA.fa data/output.txt
 
 FastaSeqORFShifter.py data/Human.miRNA.fa
+
+FastaSeqPaster.py data/Human.miRNA.fa data/Human.miRNA.fa
